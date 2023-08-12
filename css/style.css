@@ -23,13 +23,9 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-.hero .text-center {
-  width: 90%;
-  height: 100%;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.hero .text-center .display-3 text-white fw-bold {
+  color: crimson;
+  font-weight: 500;
 }
 
 #skills i {
