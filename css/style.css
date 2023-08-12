@@ -17,12 +17,19 @@ body {
 
 /* Hero section background image */
 .hero {
-  width: 90%;
   height: 100vh;
   background-image: url("../images/home-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+}
+.hero .text-center {
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 #skills i {
